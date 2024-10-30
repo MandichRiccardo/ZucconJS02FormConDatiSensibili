@@ -9,9 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
             document.getElementById("result").className = "success";
             document.getElementById("result").innerHTML = "accesso riuscito";
             let time = Date.now();
-            while(time<Date.now-(3*1000)){
-
-            }
+            while(time<Date.now-(3*1000)){}
             this.submit();
         }
     });
