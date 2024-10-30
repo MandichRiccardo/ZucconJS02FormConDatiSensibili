@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <h1>Log in</h1>
+                <form action="logIn" id="form">
+                    <div class="form-group">
+                        <label for="nome">
+                            inserisci il nome
+                        </label>
+                        <input type="text" name="nome" id="nome" placeholder="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cognome">
+                            inserisci il cognome
+                        </label>
+                        <input type="text" name="cognome" id="cognome" placeholder="cognome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="CF">
+                            inserisci il codice fiscale
+                        </label>
+                        <input type="text" name="CF" id="CF" placeholder="codice fiscale" required>
+                    </div>
+                    <div class="form-group">
+                        <span id="result" class="hidden"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
